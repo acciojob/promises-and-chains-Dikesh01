@@ -8,7 +8,7 @@ button.addEventListener('click', function(event){
 	let nameValue = name.value;
 	let ageValue = age.value;
   if(!(nameValue && ageValue)){
-    alert("inputs cannot be empty.");
+    alert("Please enter valid details");
     return;
   }
   return new Promise((resolve,reject)=>{
